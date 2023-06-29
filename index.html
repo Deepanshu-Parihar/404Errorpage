@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 NOT FOUND</title>
+</head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+ 
+
+  *{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  h2{
+    font-family: 'Space Mono', monospace;
+  }
+
+  h4{
+    font-family: 'Press Start 2P', cursive;
+    margin: 30px;
+  }
+
+  main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 170px;
+  }
+
+  img{
+    width: 450px;
+    height: auto;
+    margin-left: 100px;
+  }
+
+  .mainContent{
+     margin-left: 70px;
+  }
+
+  .maintext{
+    font-family: 'Space Mono', monospace;
+    font-size: 3rem; 
+  }
+
+  .mainPara{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+
+  button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-top: 1rem;
+  }
+
+  footer{
+    position: static;
+    bottom: 0;
+  }
+  .end{
+    position: fixed;
+    margin-left:600px;
+    text-align: center;
+    margin-top: 100px;
+    color: hsl(0, 0%, 75%);
+  }
+
+
+  @media screen and (max-width:700px) {
+    main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+  }
+  img{
+    width: 450px;
+    height: auto;
+    margin-left: 70px;
+  }
+  button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-top: 5rem;
+  }
+  .maintext{
+    font-family: 'Space Mono', monospace;
+    font-size: 4rem; 
+  }
+
+  .mainPara{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: bold;
+    margin-top: 3rem;
+  }
+  }
+
+    </style>
+
+<body>
+
+  <header>
+    <h4>404 NOT FOUND</h4>
+  </header>
+  <main>
+    <section class="leftSection">
+      <img src="Scarecrow.png" alt="" width="200px">
+    </section>
+    <section class="rightSection">
+      <div class="mainContent">
+        <h2 class="maintext">I have bad news for you</h2>
+        <p class="mainPara">This page you are looking for might be removed or is temporarily unavailable</p>
+        <button>BACK TO HOMEPAGE</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p class="end">Created by Deepanshu Parihar | Project-1</p>
+  </footer>
+</body>
+</html>
